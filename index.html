@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Military Portal</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="css/tooplate-style.css">
+
+	<script>
+		var renderPage = true;
+
+	if(navigator.userAgent.indexOf('MSIE')!==-1
+		|| navigator.appVersion.indexOf('Trident/') > 0){
+   		alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+   		renderPage = false;
+	}
+	</script>
+</head>
+
+<body>
+	<!-- Loader -->
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	
+	<!-- Page Content -->
+	<div class="container-fluid tm-main">
+		<div class="row tm-main-row">
+
+			<!-- Sidebar -->
+			<div id="tmSideBar" class="col-xl-3 col-lg-4 col-md-12 col-sm-12 sidebar">
+
+				<button id="tmMainNavToggle" class="menu-icon">&#9776;</button>
+
+				<div class="inner">
+					<nav id="tmMainNav" class="tm-main-nav">
+						<ul>
+							<li>
+								<a href="#intro" id="tmNavLink1" class="scrolly active" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-1">
+									<i class="fas  "></i>
+									<span>Історія</span>
+								</a>
+							</li>
+							<li>
+								<a href="#products" id="tmNavLink2" class="scrolly" data-bg-img="constructive_bg_02.jpg" data-page="#tm-section-2" data-page-type="carousel">
+									<i class="fas "></i>
+									<span>Сухопутні сили</span>
+								</a>
+							</li>							
+							<li>
+								<a href="#company" class="scrolly" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
+									<i class="fas "></i>
+									<span>Повітряні сили</span>
+								</a>
+							</li>
+							<li>
+								<a href="#contact" class="scrolly" data-bg-img="constructive_bg_04.jpg" data-page="#tm-section-4">
+									<i class="fas "></i>
+									<span>Військово-морські сили</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 tm-content">
+
+					<!-- section 1 -->
+					<section id="tm-section-1" class="tm-section">
+						<div class="ml-auto">
+							<header class="mb-4"><h1 class="tm-text-shadow">Історія розвитку Збройних сил України</h1></header>
+							<p class="mb-5 tm-font-big">  24 серпня 1991 року Верховна Рада України прийняла постанову «Про військові формування в Україні», 
+								якою визначила: «підпорядкувати всі військові формування, 
+								дислоковані на території України, Верховній Раді України; утворити Міністерство оборони України; 
+								Урядові України приступити до створення Збройних Сил України». 
+								Фактично цією постановою було покладено початок будівництва Збройних Сил України як важливого інституту держави і невід’ємного елемента її воєнної організації..
+						    <br>
+								<a href="https://www.mil.gov.ua/ministry/istoriya.html" target="_blank">Continue...</a></p>
+						</div>
+					</section>
+
+					<!-- section 2 -->
+					<section id="tm-section-2" class="tm-section">						
+						<div class="row mb-4">
+							<header class="col-xl-12"><h2 class="tm-text-shadow">Сухопутні сили</h2></header>		
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab  tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Живої сили</h3>
+										<p> Загальна кількість - 500 000, активний персонал - 250 000, резерв - 250 000. <a href="" target="_parent"></a> </p>	
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas  mr-4 tm-icon-circled tm-icon-media"></i>	
+									<div class="media-body">
+										<h3>Танки та бронетехніка</h3>
+										<p> Танків - 2596, броньованих машин - 12303. <a href="" target="_blank"></a> </p>	
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab  mr-4 tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Артилерія</h3>
+										<p>Ракетні установки - 490, самохідна артилерія - 1067, ствольна артилерія - 2040.</p>		
+									</div>
+								</div>
+							</div>			          		
+						</div>						               
+					</section>
+
+					<!-- section 3 -->
+					<section id="tm-section-3" class="tm-section">						
+						<div class="row mb-4">
+							<header class="col-xl-12"><h2 class="tm-text-shadow">Повітряні сили</h2></header>		
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab  tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Загальна кількість авіації</h3>
+										<p> Загалом у підпорядкуванні повітряних сил є 318 літаків та вертольотів. <a href="" target="_parent"></a> </p>	
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas  mr-4 tm-icon-circled tm-icon-media"></i>	
+									<div class="media-body">
+										<h3>Навчальні та транспортні </h3>
+										<p> Навчально-тренувальних літаків - 71, а транспортних - 32. <a href="" target="_blank"></a> </p>	
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab  mr-4 tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Вертольоти та літаки спеціального призначення</h3>
+										<p>Транспортні вертольоти - 112,ударні вертольоти - 34, літаки спеціального призначення - 5.</p>		
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas  mr-4 tm-icon-circled tm-icon-media"></i>	
+									<div class="media-body">
+										<h3>Винищувачі та штурмовики</h3>
+										<p> Реактивних винищувачів та перехоплювачів - 69, штурмових літаків - 29. <a href="" target="_blank"></a> </p>	
+									</div>
+								</div>
+							</div>	          		
+						</div>						               
+					</section>
+
+					<!-- section 4 -->
+					<section id="tm-section-4" class="tm-section">						
+						<div class="row mb-4">
+							<header class="col-xl-12"><h2 class="tm-text-shadow">Військово-морські сили</h2></header>		
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Загальна кількість суден</h3>
+										<p> Загальна кількість суден, які допомагають ВМС Укріїни налічує 38 штук. <a href="" target="_parent"></a> </p>	
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas  mr-4 tm-icon-circled tm-icon-media"></i>	
+									<div class="media-body">
+										<h3>Фрегати</h3>
+										<p> На озброєнні України є лише 1 фрегат. <a href="" target="_blank"></a> </p>	
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab  mr-4 tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Корвети та мінні судна</h3>
+										<p>Аналогічно до фрегатів, в озброєнні є 1 корвет, та 1 мінне судно.</p>		
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab  mr-4 tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Патрульні судна</h3>
+										<p>У ВМС України також є 13 патрульних суден, для патрулювання морських просторів.</p>	
+									</div>
+								</div>
+							</div>			          		
+						</div>						               
+					</section>
+					<!-- section 4 end -->
+				</div>	<!-- .tm-content -->							
+				<footer class="footer-link">
+					<p class="tm-copyright-text">&copy; I want 3 please </p>
+				</footer>
+			</div>	<!-- row -->			
+		</div>
+		<div id="preload-01"></div>
+		<div id="preload-02"></div>
+		<div id="preload-03"></div>
+		<div id="preload-04"></div>
+
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
+
+		<script>
+
+		var sidebarVisible = false;
+		var currentPageID = "#tm-section-1";
+
+		
+		function setupCarousel() {
+
+			
+			if($('#tm-section-2').css('display') == "none") {
+			}
+			else {	
+				var slider = $('.tm-img-slider');
+				var windowWidth = $(window).width();
+
+				if (slider.hasClass('slick-initialized')) {
+					slider.slick('destroy');
+				}
+
+				if(windowWidth < 640) {
+					slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 1,
+	              		slidesToScroll: 1
+	              	});
+				}
+				else if(windowWidth < 992) {
+					slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 2,
+	              		slidesToScroll: 1
+	              	});
+				}
+				else {
+					
+	              	slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 3,
+	              		slidesToScroll: 2
+	              	});
+				}
+
+				
+				$('.tm-img-slider').magnificPopup({
+				  delegate: 'a', 
+				  type: 'image',
+				  gallery: {enabled:true}
+				 
+				});
+      		}
+  		}
+
+  		
+  		function setupNav() {
+  			
+	     	$(".tm-main-nav a").click(function(e){
+	     		e.preventDefault();
+		    	
+		    	var currentNavItem = $(this);
+		    	changePage(currentNavItem);
+		    	
+		    	setupCarousel();
+		    	setupFooter();
+
+		    	
+		    	$("#tmSideBar").removeClass("show");
+		    });	    
+  		}
+
+  		function changePage(currentNavItem) {
+  			
+  			$(".tm-main-nav a").removeClass("active");
+     		currentNavItem.addClass("active");
+
+	    	$(currentPageID).hide();
+
+	    	
+	    	currentPageID = currentNavItem.data("page");
+	    	$(currentPageID).fadeIn(1000);
+
+	    	
+	    	var bgImg = currentNavItem.data("bgImg");
+	    	$.backstretch("img/" + bgImg);		    	
+  		}
+
+  		
+  		function setupNavToggle() {
+
+			$("#tmMainNavToggle").on("click", function(){
+				$(".sidebar").toggleClass("show");
+			});
+  		}
+
+  		function setupFooter() {
+  			
+  			var padding = 100;
+  			var footerPadding = 40;
+  			var mainContent = $("section"+currentPageID);
+  			var mainContentHeight = mainContent.outerHeight(true);
+  			var footer = $(".footer-link");
+  			var footerHeight = footer.outerHeight(true);
+  			var totalPageHeight = mainContentHeight + footerHeight + footerPadding + padding;
+  			var windowHeight = $(window).height();		
+
+  			if(totalPageHeight > windowHeight){
+  				$(".tm-content").css("margin-bottom", footerHeight + footerPadding + "px");
+  				footer.css("bottom", footerHeight + "px");  			
+  			}
+  			else {
+  				$(".tm-content").css("margin-bottom", "0");
+  				footer.css("bottom", "20px");  				
+  			}  			
+  		}
+
+  		
+      	$(window).on("load", function(){
+
+      		
+      		if(renderPage) {
+				
+		      	$('body').addClass('loaded');
+
+		      
+		      	var allPages = $(".tm-section");
+
+		      	var linkToAnotherPage = $("a.tm-btn[data-nav-link]");
+			    
+			    if(linkToAnotherPage != null) {
+			    	
+			    	linkToAnotherPage.on("click", function(){
+			    		var navItemToHighlight = linkToAnotherPage.data("navLink");
+			    		$("a" + navItemToHighlight).click();
+			    	});
+			    }
+		      	
+		      	allPages.hide();
+
+		      	$("#tm-section-1").fadeIn();
+
+		     	
+		     	var bgImg = $("#tmNavLink1").data("bgImg");
+		     	
+		     	$.backstretch("img/" + bgImg, {fade: 500});
+
+		     	
+			    setupCarousel();
+			    setupNav();
+			    setupNavToggle();
+			    setupFooter();
+
+			    
+			    $(window).resize(function() {
+			    	setupCarousel();
+			    	setupFooter();
+			    });
+      		}	      	
+		});
+
+		</script>
+	</body>
+</html>
